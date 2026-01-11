@@ -111,9 +111,9 @@ function totalSum(a, b) {
 // function agruments
 totalSum(3, 8);
 
-function totalSum(a, b) {
-  return (sum = a + b);
-}
+// function totalSum(a, b) {
+//   return (sum = a + b);
+// }
 
 var funExpr = totalSum(11, 11);
 console.log('funExpr', funExpr);
