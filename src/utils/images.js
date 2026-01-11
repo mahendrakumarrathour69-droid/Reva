@@ -1,0 +1,125 @@
+const images = {
+  smallLogo: require('../assets/images/smallLogo.png'),
+  walkThrough1: require('../assets/images/wt_1.png'),
+  walkThrough2: require('../assets/images/wt_2.png'),
+  fillCheck: require('../assets/icon/filllCheck.png'),
+  blankCheck: require('../assets/icon/blankCheck.png'),
+  downArrow: require('../assets/icon/arrowDown.png'),
+  eyeOpen: require('../assets/icon/eyeOpen.png'),
+  eyeClose: require('../assets/icon/eye_close.png'),
+  facebook: require('../assets/images/facebook_button.png'),
+  google: require('../assets/images/google_button.png'),
+  email_otp: require('../assets/images/email_otp.png'),
+  passwordLock: require('../assets/images/passwordLock.png'),
+  edit: require('../assets/icon/edit.png'),
+  backArrow: require('../assets/icon/backArrow.png'),
+  ic_check_select: require('../assets/icon/ic_check_select.png'),
+  ic_check_unselect: require('../assets/icon/ic_check_unselect.png'),
+
+  //home Screen
+  PostJob: require('../assets/icon/PostJob.png'),
+  profile: require('../assets/icon/profile.png'),
+  myBooking: require('../assets/icon/myBooking.png'),
+  menu: require('../assets/icon/menu.png'),
+  notification: require('../assets/icon/notification.png'),
+  searchIcon: require('../assets/icon/searchIcon.png'),
+  location: require('../assets/icon/location.png'),
+  FillPostJob: require('../assets/icon/FillPostJob.png'),
+  fillprofile: require('../assets/icon/fillProfile.png'),
+  FillMyBooking: require('../assets/icon/FillMyBooking.png'),
+  home: require('../assets/icon/unfillHome.png'),
+  fillHome: require('../assets/icon/fillHome.png'),
+  Help: require('../assets/images/Help.png'),
+  HousePic: require('../assets/images/HousePic.png'),
+  CahirPic: require('../assets/images/CahirPic.png'),
+  HomePoster: require('../assets/images/HomePoster.png'),
+  //drawer Icon
+  myWallet: require('../assets/icon/myWallet.png'),
+  paymentHistory: require('../assets/icon/paymentHistory.png'),
+  jobPosted: require('../assets/icon/jobPosted.png'),
+  myBookingDrawer: require('../assets/icon/myBookingDrawer.png'),
+  bellNotification: require('../assets/icon/bellNotification.png'),
+  chat: require('../assets/icon/chat.png'),
+  offerDiscount: require('../assets/icon/offerDiscount.png'),
+  Review: require('../assets/icon/Review.png'),
+  logoutIcon: require('../assets/icon/logoutIcon.png'),
+  setting: require('../assets/icon/setting.png'),
+  cross: require('../assets/icon/cross.png'),
+  sideArrow: require('../assets/icon/sideArrow.png'),
+
+  filter: require('../assets/icon/filter.png'),
+  rectangleCheck: require('../assets/icon/rectangleCheck.png'),
+  fill_rectangle: require('../assets/icon/fill_rectangle.png'),
+  fillrectanglecheck: require('../assets/icon/fillrectanglecheck.png'),
+  upArrowFill: require('../assets/icon/upArrowFill.png'),
+  userProfile: require('../assets/images/userProfile.png'),
+  orgnizationProfile: require('../assets/images/orgnizationProfile.png'),
+  //carer listing
+  userProfile1: require('../assets/images/userProfile1.png'),
+  maps: require('../assets/icon/maps.png'),
+  time: require('../assets/icon/time.png'),
+  malesign: require('../assets/icon/malesign.png'),
+  femalesign: require('../assets/icon/femalesign.png'),
+  yellowstar: require('../assets/icon/yellowstar.png'),
+  starBackground: require('../assets/icon/starBackground.png'),
+
+  //carer detaail
+
+  locationMap: require('../assets/images/locationMap.png'),
+  marker: require('../assets/icon/marker.png'),
+  blackstar: require('../assets/icon/blackstar.png'),
+
+  calenders: require('../assets/icon/calenders.png'),
+  additonalrequirement: require('../assets/icon/additonalrequirement.png'),
+
+  //payment screen
+  creditcard: require('../assets/icon/creditcard.png'),
+  netBanking: require('../assets/icon/netBanking.png'),
+  securePayemnt: require('../assets/icon/securePayemnt.png'),
+  satisficationguaranted: require('../assets/icon/satisficationguaranted.png'),
+  questionmark: require('../assets/icon/questionmark.png'),
+
+  //services screen
+  service1: require('../assets/images/service1.png'),
+  service2: require('../assets/images/service2.png'),
+  service3: require('../assets/images/service3.png'),
+  service7: require('../assets/images/service7.png'),
+  service5: require('../assets/images/service5.png'),
+  service6: require('../assets/images/service6.png'),
+  service8: require('../assets/images/service8.png'),
+  service9: require('../assets/images/service9.png'),
+  service10: require('../assets/images/service10.png'),
+
+  chatSign: require('../assets/images/chatSign.png'),
+  mapsmarker: require('../assets/images/mapsmarker.png'),
+  paymentSycessfullSign: require('../assets/images/paymentSycessfullSign.png'),
+  paymentunsucessfull: require('../assets/images/paymentunsucessfull.png'),
+
+  watch: require('../assets/icon/watch.png'),
+  offerSign: require('../assets/icon/offerSign.png'),
+
+  //job posted
+
+  userProfile2: require('../assets/images/userProfile2.png'),
+  userProfile3: require('../assets/images/userProfile3.png'),
+  carePic: require('../assets/icon/carePic.png'),
+
+  information: require('../assets/icon/information.png'),
+  infoo: require('../assets/icon/infoo.png'),
+  sendMessage: require('../assets/icon/sendMessage.png'),
+  cancelSucessfully: require('../assets/images/cancelSucessfully.png'),
+  warning: require('../assets/images/warning.png'),
+
+  close: require('../assets/icon/close.png'),
+  upload: require('../assets/icon/upload.png'),
+  masterCard: require('../assets/icon/masterCard.png'),
+  editCamera: require('../assets/icon/editCamera.png'),
+  readBell: require('../assets/icon/readBell.png'),
+  deleteIcon: require('../assets/icon/delete.png'),
+  apple: require('../assets/icon/apple.png'),
+  facebookIcon: require('../assets/icon/facebookIcon.png'),
+  googleIcon: require('../assets/icon/googleIcon.png'),
+  menuChat: require('../assets/icon/menuChat.png'),
+};
+export default images;
+  

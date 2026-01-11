@@ -1,0 +1,19 @@
+export const TOKEN = 'login_token';
+export const PROFILE_STATUS = 'PROFILE_STATUS';
+export const VERIFY_ACCOUNT = 'VERIFY_ACCOUNT';
+export const COMPLETE_PROFILE_STATUS = 'COMPLETE_PROFILE_STATUS';
+export const RESTORE_TOKEN = 'RESTORE_TOKEN';
+export const USER_ROLE = 'USER_ROLE';
+export const SIGN_IN = 'SIGN_IN';
+export const COMPLETE_PROFILE = 'COMPLETE_PROFILE';
+export const SIGN_OUT = 'SIGN_OUT';
+export const accessToken = 'accessToken';
+export const tempAccessToken = 'tempAccessToken';
+export const EMAIL = 'email';
+export const USER_DATA = 'user_data';
+export const TEMP_USER_DATA = 'temp_user_data';
+export const FIRST_TIME_USER = 'First_time_user';
+
+export const SEARCH_DATA = 'SEARCH_DATA';
+export const firebaseToken = 'FirbaseToken';
+export const PLAN_NAME = 'PLAN_NAME';

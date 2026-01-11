@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Reva</string>
+
+    <string name="facebook_app_id">1179940179593451</string>
+    <string name="fb_login_protocol_sc1234heme">fb1179940179593451</string>
+    <string name="facebook_client_token">6f2b0d07eae04b2a53363bfcca604723</string>
+
+
+</resources>

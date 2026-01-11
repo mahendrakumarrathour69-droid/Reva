@@ -1,0 +1,158 @@
+{
+  "project_info": {
+    "project_number": "530793332806",
+    "project_id": "careseeker-9533b",
+    "storage_bucket": "careseeker-9533b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530793332806:android:3bca9cce15fd212a2b8a47",
+        "android_client_info": {
+          "package_name": "com.arkaReva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530793332806-ie8as4el560fqo740r44ic8fcflgpcfs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arkaReva",
+            "certificate_hash": "ea1e5896465a95d61a3a9444000aaaa696fee381"
+          }
+        },
+        {
+          "client_id": "530793332806-nua0r1bnj8j2obm6cgqbd7rtgt31gcrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYPweNEa1sUL3MkcBLGP2yWibQFWY_DDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530793332806-nua0r1bnj8j2obm6cgqbd7rtgt31gcrv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "530793332806-ahivvan6leb5j7akasba30981lm9rpr4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.reva"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530793332806:android:ad67db231e481b8e2b8a47",
+        "android_client_info": {
+          "package_name": "com.carer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530793332806-rlqjndd09usnrej0qpe86177rcrtrjjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carer",
+            "certificate_hash": "ddb434a5b4f618ca4be751ccf8eb6b2040c25fd8"
+          }
+        },
+        {
+          "client_id": "530793332806-nua0r1bnj8j2obm6cgqbd7rtgt31gcrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYPweNEa1sUL3MkcBLGP2yWibQFWY_DDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530793332806-nua0r1bnj8j2obm6cgqbd7rtgt31gcrv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "530793332806-ahivvan6leb5j7akasba30981lm9rpr4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.reva"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530793332806:android:abc7b82b650812162b8a47",
+        "android_client_info": {
+          "package_name": "com.reva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530793332806-6b5b0lsat4toqqas94ek5qe6peacr1oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reva",
+            "certificate_hash": "dbb604b030ebf77ecf636450bb2f1a1cc3acc15f"
+          }
+        },
+        {
+          "client_id": "530793332806-go9v2nim5qepenelp9ra3vo2pv7irveg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reva",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "530793332806-o0mo9g2nbp9s1tue3u6g3aluoot9dkte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reva",
+            "certificate_hash": "fffc212671acbaddc20493c7d637839eac407a05"
+          }
+        },
+        {
+          "client_id": "530793332806-nua0r1bnj8j2obm6cgqbd7rtgt31gcrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYPweNEa1sUL3MkcBLGP2yWibQFWY_DDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530793332806-nua0r1bnj8j2obm6cgqbd7rtgt31gcrv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "530793332806-ahivvan6leb5j7akasba30981lm9rpr4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.reva"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
