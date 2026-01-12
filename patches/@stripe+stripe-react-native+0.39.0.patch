@@ -1,0 +1,123 @@
+diff --git a/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/GooglePayButtonManager.kt b/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/GooglePayButtonManager.kt
+index db558c4..6f21445 100644
+--- a/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/GooglePayButtonManager.kt
++++ b/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/GooglePayButtonManager.kt
+@@ -1,36 +1,36 @@
+ package com.reactnativestripesdk
+ 
++import android.view.View
+ import com.facebook.react.uimanager.SimpleViewManager
+ import com.facebook.react.uimanager.ThemedReactContext
+ import com.facebook.react.uimanager.annotations.ReactProp
+ 
+-class GooglePayButtonManager : SimpleViewManager<GooglePayButtonView>() {
++class GooglePayButtonManager : SimpleViewManager<View>() {
+   override fun getName(): String {
+     return REACT_CLASS
+   }
+ 
+-  override fun onAfterUpdateTransaction(view: GooglePayButtonView) {
++  override fun onAfterUpdateTransaction(view: View) {
+     super.onAfterUpdateTransaction(view)
+-
+-    view.initialize()
++    (view as GooglePayButtonView).initialize()
+   }
+ 
+   @ReactProp(name = "type")
+-  fun type(view: GooglePayButtonView, buttonType: Int) {
+-    view.setType(buttonType)
++  fun type(view: View, buttonType: Int) {
++    (view as GooglePayButtonView).setType(buttonType)
+   }
+ 
+   @ReactProp(name = "appearance")
+-  fun appearance(view: GooglePayButtonView, appearance: Int) {
+-    view.setAppearance(appearance)
++  fun appearance(view: View, appearance: Int) {
++    (view as GooglePayButtonView).setAppearance(appearance)
+   }
+ 
+   @ReactProp(name = "borderRadius")
+-  fun borderRadius(view: GooglePayButtonView, borderRadius: Int) {
+-    view.setBorderRadius(borderRadius)
++  fun borderRadius(view: View, borderRadius: Int) {
++    (view as GooglePayButtonView).setBorderRadius(borderRadius)
+   }
+ 
+-  override fun createViewInstance(reactContext: ThemedReactContext): GooglePayButtonView {
++  override fun createViewInstance(reactContext: ThemedReactContext): View {
+     return GooglePayButtonView(reactContext)
+   }
+ 
+diff --git a/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/pushprovisioning/AddToWalletButtonManager.kt b/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/pushprovisioning/AddToWalletButtonManager.kt
+index 22df1d5..5d97357 100644
+--- a/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/pushprovisioning/AddToWalletButtonManager.kt
++++ b/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/pushprovisioning/AddToWalletButtonManager.kt
+@@ -1,6 +1,7 @@
+ package com.reactnativestripesdk.pushprovisioning
+ 
+ import android.content.Context
++import android.view.View
+ import com.bumptech.glide.Glide
+ import com.facebook.react.bridge.ReadableMap
+ import com.facebook.react.common.MapBuilder
+@@ -9,21 +10,21 @@ import com.facebook.react.uimanager.ThemedReactContext
+ import com.facebook.react.uimanager.annotations.ReactProp
+ 
+ 
+-class AddToWalletButtonManager(applicationContext: Context) : SimpleViewManager<AddToWalletButtonView>() {
++class AddToWalletButtonManager(applicationContext: Context) : SimpleViewManager<View>() {
+   private val requestManager = Glide.with(applicationContext)
+   override fun getName() = "AddToWalletButton"
+ 
+-  override fun onDropViewInstance(view: AddToWalletButtonView) {
+-    view.onDropViewInstance()
++  override fun onDropViewInstance(view: View) {
++    (view as AddToWalletButtonView).onDropViewInstance()
+     super.onDropViewInstance(view)
+   }
+ 
+-  override fun onAfterUpdateTransaction(view: AddToWalletButtonView) {
++  override fun onAfterUpdateTransaction(view: View) {
+     super.onAfterUpdateTransaction(view)
+-    view.onAfterUpdateTransaction()
++    (view as AddToWalletButtonView).onAfterUpdateTransaction()
+   }
+ 
+-  override fun createViewInstance(reactContext: ThemedReactContext): AddToWalletButtonView {
++  override fun createViewInstance(reactContext: ThemedReactContext): View {
+     return AddToWalletButtonView(reactContext, requestManager)
+   }
+ 
+@@ -34,22 +35,22 @@ class AddToWalletButtonManager(applicationContext: Context) : SimpleViewManager<
+   }
+ 
+   @ReactProp(name = "androidAssetSource")
+-  fun source(view: AddToWalletButtonView, source: ReadableMap) {
+-    view.setSourceMap(source)
++  fun source(view: View, source: ReadableMap) {
++    (view as AddToWalletButtonView).setSourceMap(source)
+   }
+ 
+   @ReactProp(name = "cardDetails")
+-  fun cardDetails(view: AddToWalletButtonView, cardDetails: ReadableMap) {
+-    view.setCardDetails(cardDetails)
++  fun cardDetails(view: View, cardDetails: ReadableMap) {
++    (view as AddToWalletButtonView).setCardDetails(cardDetails)
+   }
+ 
+   @ReactProp(name = "ephemeralKey")
+-  fun ephemeralKey(view: AddToWalletButtonView, ephemeralKey: ReadableMap) {
+-    view.setEphemeralKey(ephemeralKey)
++  fun ephemeralKey(view: View, ephemeralKey: ReadableMap) {
++    (view as AddToWalletButtonView).setEphemeralKey(ephemeralKey)
+   }
+ 
+   @ReactProp(name = "token")
+-  fun token(view: AddToWalletButtonView, token: ReadableMap?) {
+-    view.setToken(token)
++  fun token(view: View, token: ReadableMap?) {
++    (view as AddToWalletButtonView).setToken(token)
+   }
+ }

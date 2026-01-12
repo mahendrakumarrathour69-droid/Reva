@@ -1,0 +1,656 @@
+info A dev server is already running for this project on port 8081.
+info Installing the app...
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:firebase.bom using default value: 31.1.1
+:react-native-firebase_app:play.play-services-auth using default value: 20.3.0
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_app:android.compileSdk using custom value: 34
+:react-native-firebase_app:android.targetSdk using custom value: 34
+:react-native-firebase_app:android.minSdk using custom value: 24
+:react-native-firebase_app:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_dynamic-links
+:react-native-firebase_dynamic-links package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/dynamic-links/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_dynamic-links:firebase.bom using default value: 31.1.1
+:react-native-firebase_dynamic-links package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/dynamic-links/package.json
+:react-native-firebase_dynamic-links:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_dynamic-links:android.compileSdk using custom value: 34
+:react-native-firebase_dynamic-links:android.targetSdk using custom value: 34
+:react-native-firebase_dynamic-links:android.minSdk using custom value: 24
+:react-native-firebase_dynamic-links:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_firestore
+:react-native-firebase_firestore package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/firestore/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_firestore:firebase.bom using default value: 31.1.1
+:react-native-firebase_firestore package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/firestore/package.json
+:react-native-firebase_firestore:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_firestore:android.compileSdk using custom value: 34
+:react-native-firebase_firestore:android.targetSdk using custom value: 34
+:react-native-firebase_firestore:android.minSdk using custom value: 24
+:react-native-firebase_firestore:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_messaging
+:react-native-firebase_messaging package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/messaging/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_messaging:firebase.bom using default value: 31.1.1
+:react-native-firebase_messaging package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/messaging/package.json
+:react-native-firebase_messaging:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_messaging:android.compileSdk using custom value: 34
+:react-native-firebase_messaging:android.targetSdk using custom value: 34
+:react-native-firebase_messaging:android.minSdk using custom value: 24
+:react-native-firebase_messaging:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-notifications
+WARNING: DSL element 'dexOptions' is obsolete and should be removed.
+It will be removed in version 8.0 of the Android Gradle plugin.
+Using it has no effect, and the AndroidGradle plugin optimizes dexing automatically.
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.9.2
+Gradle: 8.11.1
+
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:generateDebugBuildConfig
+> Task :app:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:processDebugGoogleServices
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+
+> Task :app:processDebugMainManifest
+package="com.arkaReva" found in source AndroidManifest.xml: /Users/orange/Desktop/Reva/android/app/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.arkaReva" from the source AndroidManifest.xml: /Users/orange/Desktop/Reva/android/app/src/main/AndroidManifest.xml.
+/Users/orange/Desktop/Reva/android/app/src/main/AndroidManifest.xml:6:5-67 Warning:
+	Element uses-permission#android.permission.INTERNET at AndroidManifest.xml:6:5-67 duplicated with element declared at AndroidManifest.xml:5:5-67
+
+> Task :app:processDebugManifest
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:compressDebugAssets
+> Task :app:mergeDebugResources
+> Task :app:mergeDebugJniLibFolders
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugNativeLibs
+> Task :app:mergeDebugJavaResource
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeExtDexDebug
+> Task :app:validateSigningDebug
+> Task :app:mergeLibDexDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:stripDebugDebugSymbols
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac FAILED
+[Incubating] Problems report is available at: file:///Users/orange/Desktop/Reva/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+43 actionable tasks: 33 executed, 10 up-to-date
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+/Users/orange/Desktop/Reva/android/app/src/main/java/com/reva/MainActivity.java:10: error: package org.devio.rn.splashscreen does not exist
+import org.devio.rn.splashscreen.SplashScreen;
+                                ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:14: error: package com.RNAppleAuthentication does not exist
+import com.RNAppleAuthentication.AppleAuthenticationAndroidPackage;
+                                ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:16: error: package com.reactnativecommunity.asyncstorage does not exist
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+                                            ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:18: error: package com.reactnativecommunity.clipboard does not exist
+import com.reactnativecommunity.clipboard.ClipboardPackage;
+                                         ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:20: error: package com.reactnativecommunity.netinfo does not exist
+import com.reactnativecommunity.netinfo.NetInfoPackage;
+                                       ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:22: error: package io.invertase.firebase.app does not exist
+import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
+                                ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:24: error: package io.invertase.firebase.dynamiclinks does not exist
+import io.invertase.firebase.dynamiclinks.ReactNativeFirebaseDynamicLinksPackage;
+                                         ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:26: error: package io.invertase.firebase.firestore does not exist
+import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;
+                                      ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:28: error: package io.invertase.firebase.messaging does not exist
+import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
+                                      ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:30: error: package com.reactnativegooglesignin does not exist
+import com.reactnativegooglesignin.RNGoogleSigninPackage;
+                                  ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:32: error: package com.reactnativestripesdk does not exist
+import com.reactnativestripesdk.StripeSdkPackage;
+                               ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:34: error: package com.ReactNativeBlobUtil does not exist
+import com.ReactNativeBlobUtil.ReactNativeBlobUtilPackage;
+                              ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:36: error: package com.henninghall.date_picker does not exist
+import com.henninghall.date_picker.DatePickerPackage;
+                                  ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:38: error: package com.reactnativedocumentpicker does not exist
+import com.reactnativedocumentpicker.RNDocumentPickerPackage;
+                                    ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:40: error: package com.facebook.reactnative.androidsdk does not exist
+import com.facebook.reactnative.androidsdk.FBSDKPackage;
+                                          ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:42: error: package com.swmansion.gesturehandler does not exist
+import com.swmansion.gesturehandler.RNGestureHandlerPackage;
+                                   ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:44: error: package com.reactnative.ivpusic.imagepicker does not exist
+import com.reactnative.ivpusic.imagepicker.PickerPackage;
+                                          ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:46: error: package com.wix.reactnativenotifications does not exist
+import com.wix.reactnativenotifications.RNNotificationsPackage;
+                                       ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:48: error: package com.swmansion.reanimated does not exist
+import com.swmansion.reanimated.ReanimatedPackage;
+                               ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:50: error: package com.th3rdwave.safeareacontext does not exist
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+                                    ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:52: error: package com.swmansion.rnscreens does not exist
+import com.swmansion.rnscreens.RNScreensPackage;
+                              ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:54: error: package com.azendoo.reactnativesnackbar does not exist
+import com.azendoo.reactnativesnackbar.SnackbarPackage;
+                                      ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:56: error: package org.devio.rn.splashscreen does not exist
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
+                                ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:58: error: package com.horcrux.svg does not exist
+import com.horcrux.svg.SvgPackage;
+                      ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:60: error: package com.oblador.vectoricons does not exist
+import com.oblador.vectoricons.VectorIconsPackage;
+                              ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:62: error: package com.reactnativecommunity.webview does not exist
+import com.reactnativecommunity.webview.RNCWebViewPackage;
+                                       ^
+/Users/orange/Desktop/Reva/android/app/src/main/java/com/reva/MainActivity.java:20: error: cannot find symbol
+    SplashScreen.show(this);  // here
+    ^
+  symbol:   variable SplashScreen
+  location: class MainActivity
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:108: error: cannot find symbol
+      new AppleAuthenticationAndroidPackage(),
+          ^
+  symbol:   class AppleAuthenticationAndroidPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:109: error: cannot find symbol
+      new AsyncStoragePackage(),
+          ^
+  symbol:   class AsyncStoragePackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:110: error: cannot find symbol
+      new ClipboardPackage(),
+          ^
+  symbol:   class ClipboardPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:111: error: cannot find symbol
+      new NetInfoPackage(),
+          ^
+  symbol:   class NetInfoPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:112: error: cannot find symbol
+      new ReactNativeFirebaseAppPackage(),
+          ^
+  symbol:   class ReactNativeFirebaseAppPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:113: error: cannot find symbol
+      new ReactNativeFirebaseDynamicLinksPackage(),
+          ^
+  symbol:   class ReactNativeFirebaseDynamicLinksPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:114: error: cannot find symbol
+      new ReactNativeFirebaseFirestorePackage(),
+          ^
+  symbol:   class ReactNativeFirebaseFirestorePackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:115: error: cannot find symbol
+      new ReactNativeFirebaseMessagingPackage(),
+          ^
+  symbol:   class ReactNativeFirebaseMessagingPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:116: error: cannot find symbol
+      new RNGoogleSigninPackage(),
+          ^
+  symbol:   class RNGoogleSigninPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:117: error: cannot find symbol
+      new StripeSdkPackage(),
+          ^
+  symbol:   class StripeSdkPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:118: error: cannot find symbol
+      new ReactNativeBlobUtilPackage(),
+          ^
+  symbol:   class ReactNativeBlobUtilPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:119: error: cannot find symbol
+      new DatePickerPackage(),
+          ^
+  symbol:   class DatePickerPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:120: error: cannot find symbol
+      new RNDocumentPickerPackage(),
+          ^
+  symbol:   class RNDocumentPickerPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:121: error: cannot find symbol
+      new FBSDKPackage(),
+          ^
+  symbol:   class FBSDKPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:122: error: cannot find symbol
+      new RNGestureHandlerPackage(),
+          ^
+  symbol:   class RNGestureHandlerPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:123: error: cannot find symbol
+      new PickerPackage(),
+          ^
+  symbol:   class PickerPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:124: error: cannot find symbol
+      new RNNotificationsPackage(reactNativeHost.getApplication()),
+          ^
+  symbol:   class RNNotificationsPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:125: error: cannot find symbol
+      new ReanimatedPackage(),
+          ^
+  symbol:   class ReanimatedPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:126: error: cannot find symbol
+      new SafeAreaContextPackage(),
+          ^
+  symbol:   class SafeAreaContextPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:127: error: cannot find symbol
+      new RNScreensPackage(),
+          ^
+  symbol:   class RNScreensPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:128: error: cannot find symbol
+      new SnackbarPackage(),
+          ^
+  symbol:   class SnackbarPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:129: error: cannot find symbol
+      new SplashScreenReactPackage(),
+          ^
+  symbol:   class SplashScreenReactPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:130: error: cannot find symbol
+      new SvgPackage(),
+          ^
+  symbol:   class SvgPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:131: error: cannot find symbol
+      new VectorIconsPackage(),
+          ^
+  symbol:   class VectorIconsPackage
+  location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:132: error: cannot find symbol
+      new RNCWebViewPackage()
+          ^
+  symbol:   class RNCWebViewPackage
+  location: class PackageList
+Note: /Users/orange/Desktop/Reva/android/app/src/debug/java/com/reva/ReactNativeFlipper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+52 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler output below.
+  /Users/orange/Desktop/Reva/android/app/src/main/java/com/reva/MainActivity.java:10: error: package org.devio.rn.splashscreen does not exist
+  import org.devio.rn.splashscreen.SplashScreen;
+                                  ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:14: error: package com.RNAppleAuthentication does not exist
+  import com.RNAppleAuthentication.AppleAuthenticationAndroidPackage;
+                                  ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:16: error: package com.reactnativecommunity.asyncstorage does not exist
+  import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+                                              ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:18: error: package com.reactnativecommunity.clipboard does not exist
+  import com.reactnativecommunity.clipboard.ClipboardPackage;
+                                           ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:20: error: package com.reactnativecommunity.netinfo does not exist
+  import com.reactnativecommunity.netinfo.NetInfoPackage;
+                                         ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:22: error: package io.invertase.firebase.app does not exist
+  import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
+                                  ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:24: error: package io.invertase.firebase.dynamiclinks does not exist
+  import io.invertase.firebase.dynamiclinks.ReactNativeFirebaseDynamicLinksPackage;
+                                           ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:26: error: package io.invertase.firebase.firestore does not exist
+  import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;
+                                        ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:28: error: package io.invertase.firebase.messaging does not exist
+  import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
+                                        ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:30: error: package com.reactnativegooglesignin does not exist
+  import com.reactnativegooglesignin.RNGoogleSigninPackage;
+                                    ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:32: error: package com.reactnativestripesdk does not exist
+  import com.reactnativestripesdk.StripeSdkPackage;
+                                 ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:34: error: package com.ReactNativeBlobUtil does not exist
+  import com.ReactNativeBlobUtil.ReactNativeBlobUtilPackage;
+                                ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:36: error: package com.henninghall.date_picker does not exist
+  import com.henninghall.date_picker.DatePickerPackage;
+                                    ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:38: error: package com.reactnativedocumentpicker does not exist
+  import com.reactnativedocumentpicker.RNDocumentPickerPackage;
+                                      ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:40: error: package com.facebook.reactnative.androidsdk does not exist
+  import com.facebook.reactnative.androidsdk.FBSDKPackage;
+                                            ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:42: error: package com.swmansion.gesturehandler does not exist
+  import com.swmansion.gesturehandler.RNGestureHandlerPackage;
+                                     ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:44: error: package com.reactnative.ivpusic.imagepicker does not exist
+  import com.reactnative.ivpusic.imagepicker.PickerPackage;
+                                            ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:46: error: package com.wix.reactnativenotifications does not exist
+  import com.wix.reactnativenotifications.RNNotificationsPackage;
+                                         ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:48: error: package com.swmansion.reanimated does not exist
+  import com.swmansion.reanimated.ReanimatedPackage;
+                                 ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:50: error: package com.th3rdwave.safeareacontext does not exist
+  import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+                                      ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:52: error: package com.swmansion.rnscreens does not exist
+  import com.swmansion.rnscreens.RNScreensPackage;
+                                ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:54: error: package com.azendoo.reactnativesnackbar does not exist
+  import com.azendoo.reactnativesnackbar.SnackbarPackage;
+                                        ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:56: error: package org.devio.rn.splashscreen does not exist
+  import org.devio.rn.splashscreen.SplashScreenReactPackage;
+                                  ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:58: error: package com.horcrux.svg does not exist
+  import com.horcrux.svg.SvgPackage;
+                        ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:60: error: package com.oblador.vectoricons does not exist
+  import com.oblador.vectoricons.VectorIconsPackage;
+                                ^
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:62: error: package com.reactnativecommunity.webview does not exist
+  import com.reactnativecommunity.webview.RNCWebViewPackage;
+                                         ^
+  Note: Recompile with -Xlint:deprecation for details.
+  Note: /Users/orange/Desktop/Reva/android/app/src/debug/java/com/reva/ReactNativeFlipper.java uses or overrides a deprecated API.
+  /Users/orange/Desktop/Reva/android/app/src/main/java/com/reva/MainActivity.java:20: error: cannot find symbol
+      SplashScreen.show(this);  // here
+      ^
+    symbol:   variable SplashScreen
+    location: class MainActivity
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:108: error: cannot find symbol
+        new AppleAuthenticationAndroidPackage(),
+            ^
+    symbol:   class AppleAuthenticationAndroidPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:109: error: cannot find symbol
+        new AsyncStoragePackage(),
+            ^
+    symbol:   class AsyncStoragePackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:110: error: cannot find symbol
+        new ClipboardPackage(),
+            ^
+    symbol:   class ClipboardPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:111: error: cannot find symbol
+        new NetInfoPackage(),
+            ^
+    symbol:   class NetInfoPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:112: error: cannot find symbol
+        new ReactNativeFirebaseAppPackage(),
+            ^
+    symbol:   class ReactNativeFirebaseAppPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:113: error: cannot find symbol
+        new ReactNativeFirebaseDynamicLinksPackage(),
+            ^
+    symbol:   class ReactNativeFirebaseDynamicLinksPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:114: error: cannot find symbol
+        new ReactNativeFirebaseFirestorePackage(),
+            ^
+    symbol:   class ReactNativeFirebaseFirestorePackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:115: error: cannot find symbol
+        new ReactNativeFirebaseMessagingPackage(),
+            ^
+    symbol:   class ReactNativeFirebaseMessagingPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:116: error: cannot find symbol
+        new RNGoogleSigninPackage(),
+            ^
+    symbol:   class RNGoogleSigninPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:117: error: cannot find symbol
+        new StripeSdkPackage(),
+            ^
+    symbol:   class StripeSdkPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:118: error: cannot find symbol
+        new ReactNativeBlobUtilPackage(),
+            ^
+    symbol:   class ReactNativeBlobUtilPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:119: error: cannot find symbol
+        new DatePickerPackage(),
+            ^
+    symbol:   class DatePickerPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:120: error: cannot find symbol
+        new RNDocumentPickerPackage(),
+            ^
+    symbol:   class RNDocumentPickerPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:121: error: cannot find symbol
+        new FBSDKPackage(),
+            ^
+    symbol:   class FBSDKPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:122: error: cannot find symbol
+        new RNGestureHandlerPackage(),
+            ^
+    symbol:   class RNGestureHandlerPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:123: error: cannot find symbol
+        new PickerPackage(),
+            ^
+    symbol:   class PickerPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:124: error: cannot find symbol
+        new RNNotificationsPackage(reactNativeHost.getApplication()),
+            ^
+    symbol:   class RNNotificationsPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:125: error: cannot find symbol
+        new ReanimatedPackage(),
+            ^
+    symbol:   class ReanimatedPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:126: error: cannot find symbol
+        new SafeAreaContextPackage(),
+            ^
+    symbol:   class SafeAreaContextPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:127: error: cannot find symbol
+        new RNScreensPackage(),
+            ^
+    symbol:   class RNScreensPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:128: error: cannot find symbol
+        new SnackbarPackage(),
+            ^
+    symbol:   class SnackbarPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:129: error: cannot find symbol
+        new SplashScreenReactPackage(),
+            ^
+    symbol:   class SplashScreenReactPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:130: error: cannot find symbol
+        new SvgPackage(),
+            ^
+    symbol:   class SvgPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:131: error: cannot find symbol
+        new VectorIconsPackage(),
+            ^
+    symbol:   class VectorIconsPackage
+    location: class PackageList
+  /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:132: error: cannot find symbol
+        new RNCWebViewPackage()
+            ^
+    symbol:   class RNCWebViewPackage
+    location: class PackageList
+  52 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1m 28s
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081
+/Users/orange/Desktop/Reva/android/app/src/main/java/com/reva/MainActivity.java:10: error: package org.devio.rn.splashscreen does not exist
+import org.devio.rn.splashscreen.SplashScreen; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:14: error: package com.RNAppleAuthentication does not exist
+import com.RNAppleAuthentication.AppleAuthenticationAndroidPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:16: error: package com.reactnativecommunity.asyncstorage does not exist
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:18: error: package com.reactnativecommunity.clipboard does not exist
+import com.reactnativecommunity.clipboard.ClipboardPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:20: error: package com.reactnativecommunity.netinfo does not exist
+import com.reactnativecommunity.netinfo.NetInfoPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:22: error: package io.invertase.firebase.app does not exist
+import io.invertase.firebase.app.ReactNativeFirebaseAppPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:24: error: package io.invertase.firebase.dynamiclinks does not exist
+import io.invertase.firebase.dynamiclinks.ReactNativeFirebaseDynamicLinksPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:26: error: package io.invertase.firebase.firestore does not exist
+import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:28: error: package io.invertase.firebase.messaging does not exist
+import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:30: error: package com.reactnativegooglesignin does not exist
+import com.reactnativegooglesignin.RNGoogleSigninPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:32: error: package com.reactnativestripesdk does not exist
+import com.reactnativestripesdk.StripeSdkPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:34: error: package com.ReactNativeBlobUtil does not exist
+import com.ReactNativeBlobUtil.ReactNativeBlobUtilPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:36: error: package com.henninghall.date_picker does not exist
+import com.henninghall.date_picker.DatePickerPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:38: error: package com.reactnativedocumentpicker does not exist
+import com.reactnativedocumentpicker.RNDocumentPickerPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:40: error: package com.facebook.reactnative.androidsdk does not exist
+import com.facebook.reactnative.androidsdk.FBSDKPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:42: error: package com.swmansion.gesturehandler does not exist
+import com.swmansion.gesturehandler.RNGestureHandlerPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:44: error: package com.reactnative.ivpusic.imagepicker does not exist
+import com.reactnative.ivpusic.imagepicker.PickerPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:46: error: package com.wix.reactnativenotifications does not exist
+import com.wix.reactnativenotifications.RNNotificationsPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:48: error: package com.swmansion.reanimated does not exist
+import com.swmansion.reanimated.ReanimatedPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:50: error: package com.th3rdwave.safeareacontext does not exist
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:52: error: package com.swmansion.rnscreens does not exist
+import com.swmansion.rnscreens.RNScreensPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:54: error: package com.azendoo.reactnativesnackbar does not exist
+import com.azendoo.reactnativesnackbar.SnackbarPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:56: error: package org.devio.rn.splashscreen does not exist
+import org.devio.rn.splashscreen.SplashScreenReactPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:58: error: package com.horcrux.svg does not exist
+import com.horcrux.svg.SvgPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:60: error: package com.oblador.vectoricons does not exist
+import com.oblador.vectoricons.VectorIconsPackage; ^
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:62: error: package com.reactnativecommunity.webview does not exist
+import com.reactnativecommunity.webview.RNCWebViewPackage; ^
+/Users/orange/Desktop/Reva/android/app/src/main/java/com/reva/MainActivity.java:20: error: cannot find symbol SplashScreen.show(this); // here ^ symbol: variable SplashScreen location: class MainActivity
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:108: error: cannot find symbol new AppleAuthenticationAndroidPackage(), ^ symbol: class AppleAuthenticationAndroidPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:109: error: cannot find symbol new AsyncStoragePackage(), ^ symbol: class AsyncStoragePackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:110: error: cannot find symbol new ClipboardPackage(), ^ symbol: class ClipboardPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:111: error: cannot find symbol new NetInfoPackage(), ^ symbol: class NetInfoPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:112: error: cannot find symbol new ReactNativeFirebaseAppPackage(), ^ symbol: class ReactNativeFirebaseAppPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:113: error: cannot find symbol new ReactNativeFirebaseDynamicLinksPackage(), ^ symbol: class ReactNativeFirebaseDynamicLinksPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:114: error: cannot find symbol new ReactNativeFirebaseFirestorePackage(), ^ symbol: class ReactNativeFirebaseFirestorePackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:115: error: cannot find symbol new ReactNativeFirebaseMessagingPackage(), ^ symbol: class ReactNativeFirebaseMessagingPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:116: error: cannot find symbol new RNGoogleSigninPackage(), ^ symbol: class RNGoogleSigninPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:117: error: cannot find symbol new StripeSdkPackage(), ^ symbol: class StripeSdkPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:118: error: cannot find symbol new ReactNativeBlobUtilPackage(), ^ symbol: class ReactNativeBlobUtilPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:119: error: cannot find symbol new DatePickerPackage(), ^ symbol: class DatePickerPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:120: error: cannot find symbol new RNDocumentPickerPackage(), ^ symbol: class RNDocumentPickerPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:121: error: cannot find symbol new FBSDKPackage(), ^ symbol: class FBSDKPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:122: error: cannot find symbol new RNGestureHandlerPackage(), ^ symbol: class RNGestureHandlerPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:123: error: cannot find symbol new PickerPackage(), ^ symbol: class PickerPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:124: error: cannot find symbol new RNNotificationsPackage(reactNativeHost.getApplication()), ^ symbol: class RNNotificationsPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:125: error: cannot find symbol new ReanimatedPackage(), ^ symbol: class ReanimatedPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:126: error: cannot find symbol new SafeAreaContextPackage(), ^ symbol: class SafeAreaContextPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:127: error: cannot find symbol new RNScreensPackage(), ^ symbol: class RNScreensPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:128: error: cannot find symbol new SnackbarPackage(), ^ symbol: class SnackbarPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:129: error: cannot find symbol new SplashScreenReactPackage(), ^ symbol: class SplashScreenReactPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:130: error: cannot find symbol new SvgPackage(), ^ symbol: class SvgPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:131: error: cannot find symbol new VectorIconsPackage(), ^ symbol: class VectorIconsPackage location: class PackageList
+/Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:132: error: cannot find symbol new RNCWebViewPackage() ^ symbol: class RNCWebViewPackage location: class PackageList
+Note: /Users/orange/Desktop/Reva/android/app/src/debug/java/com/reva/ReactNativeFlipper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+52 errors FAILURE: Build failed with an exception. * What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler output below. /Users/orange/Desktop/Reva/android/app/src/main/java/com/reva/MainActivity.java:10: error: package org.devio.rn.splashscreen does not exist import org.devio.rn.splashscreen.SplashScreen; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:14: error: package com.RNAppleAuthentication does not exist import com.RNAppleAuthentication.AppleAuthenticationAndroidPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:16: error: package com.reactnativecommunity.asyncstorage does not exist import com.reactnativecommunity.asyncstorage.AsyncStoragePackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:18: error: package com.reactnativecommunity.clipboard does not exist import com.reactnativecommunity.clipboard.ClipboardPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:20: error: package com.reactnativecommunity.netinfo does not exist import com.reactnativecommunity.netinfo.NetInfoPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:22: error: package io.invertase.firebase.app does not exist import io.invertase.firebase.app.ReactNativeFirebaseAppPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:24: error: package io.invertase.firebase.dynamiclinks does not exist import io.invertase.firebase.dynamiclinks.ReactNativeFirebaseDynamicLinksPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:26: error: package io.invertase.firebase.firestore does not exist import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:28: error: package io.invertase.firebase.messaging does not exist import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:30: error: package com.reactnativegooglesignin does not exist import com.reactnativegooglesignin.RNGoogleSigninPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:32: error: package com.reactnativestripesdk does not exist import com.reactnativestripesdk.StripeSdkPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:34: error: package com.ReactNativeBlobUtil does not exist import com.ReactNativeBlobUtil.ReactNativeBlobUtilPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:36: error: package com.henninghall.date_picker does not exist import com.henninghall.date_picker.DatePickerPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:38: error: package com.reactnativedocumentpicker does not exist import com.reactnativedocumentpicker.RNDocumentPickerPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:40: error: package com.facebook.reactnative.androidsdk does not exist import com.facebook.reactnative.androidsdk.FBSDKPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:42: error: package com.swmansion.gesturehandler does not exist import com.swmansion.gesturehandler.RNGestureHandlerPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:44: error: package com.reactnative.ivpusic.imagepicker does not exist import com.reactnative.ivpusic.imagepicker.PickerPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:46: error: package com.wix.reactnativenotifications does not exist import com.wix.reactnativenotifications.RNNotificationsPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:48: error: package com.swmansion.reanimated does not exist import com.swmansion.reanimated.ReanimatedPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:50: error: package com.th3rdwave.safeareacontext does not exist import com.th3rdwave.safeareacontext.SafeAreaContextPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:52: error: package com.swmansion.rnscreens does not exist import com.swmansion.rnscreens.RNScreensPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:54: error: package com.azendoo.reactnativesnackbar does not exist import com.azendoo.reactnativesnackbar.SnackbarPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:56: error: package org.devio.rn.splashscreen does not exist import org.devio.rn.splashscreen.SplashScreenReactPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:58: error: package com.horcrux.svg does not exist import com.horcrux.svg.SvgPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:60: error: package com.oblador.vectoricons does not exist import com.oblador.vectoricons.VectorIconsPackage; ^ /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:62: error: package com.reactnativecommunity.webview does not exist import com.reactnativecommunity.webview.RNCWebViewPackage; ^ Note: Recompile with -Xlint:deprecation for details. Note: /Users/orange/Desktop/Reva/android/app/src/debug/java/com/reva/ReactNativeFlipper.java uses or overrides a deprecated API. /Users/orange/Desktop/Reva/android/app/src/main/java/com/reva/MainActivity.java:20: error: cannot find symbol SplashScreen.show(this); // here ^ symbol: variable SplashScreen location: class MainActivity /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:108: error: cannot find symbol new AppleAuthenticationAndroidPackage(), ^ symbol: class AppleAuthenticationAndroidPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:109: error: cannot find symbol new AsyncStoragePackage(), ^ symbol: class AsyncStoragePackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:110: error: cannot find symbol new ClipboardPackage(), ^ symbol: class ClipboardPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:111: error: cannot find symbol new NetInfoPackage(), ^ symbol: class NetInfoPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:112: error: cannot find symbol new ReactNativeFirebaseAppPackage(), ^ symbol: class ReactNativeFirebaseAppPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:113: error: cannot find symbol new ReactNativeFirebaseDynamicLinksPackage(), ^ symbol: class ReactNativeFirebaseDynamicLinksPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:114: error: cannot find symbol new ReactNativeFirebaseFirestorePackage(), ^ symbol: class ReactNativeFirebaseFirestorePackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:115: error: cannot find symbol new ReactNativeFirebaseMessagingPackage(), ^ symbol: class ReactNativeFirebaseMessagingPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:116: error: cannot find symbol new RNGoogleSigninPackage(), ^ symbol: class RNGoogleSigninPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:117: error: cannot find symbol new StripeSdkPackage(), ^ symbol: class StripeSdkPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:118: error: cannot find symbol new ReactNativeBlobUtilPackage(), ^ symbol: class ReactNativeBlobUtilPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:119: error: cannot find symbol new DatePickerPackage(), ^ symbol: class DatePickerPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:120: error: cannot find symbol new RNDocumentPickerPackage(), ^ symbol: class RNDocumentPickerPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:121: error: cannot find symbol new FBSDKPackage(), ^ symbol: class FBSDKPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:122: error: cannot find symbol new RNGestureHandlerPackage(), ^ symbol: class RNGestureHandlerPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:123: error: cannot find symbol new PickerPackage(), ^ symbol: class PickerPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:124: error: cannot find symbol new RNNotificationsPackage(reactNativeHost.getApplication()), ^ symbol: class RNNotificationsPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:125: error: cannot find symbol new ReanimatedPackage(), ^ symbol: class ReanimatedPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:126: error: cannot find symbol new SafeAreaContextPackage(), ^ symbol: class SafeAreaContextPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:127: error: cannot find symbol new RNScreensPackage(), ^ symbol: class RNScreensPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:128: error: cannot find symbol new SnackbarPackage(), ^ symbol: class SnackbarPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:129: error: cannot find symbol new SplashScreenReactPackage(), ^ symbol: class SplashScreenReactPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:130: error: cannot find symbol new SvgPackage(), ^ symbol: class SvgPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:131: error: cannot find symbol new VectorIconsPackage(), ^ symbol: class VectorIconsPackage location: class PackageList /Users/orange/Desktop/Reva/android/app/build/generated/autolinking/src/main/java/com/facebook/react/PackageList.java:132: error: cannot find symbol new RNCWebViewPackage() ^ symbol: class RNCWebViewPackage location: class PackageList 52 errors * Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights. BUILD FAILED in 1m 28s.
+info Run CLI with --verbose flag for more details.

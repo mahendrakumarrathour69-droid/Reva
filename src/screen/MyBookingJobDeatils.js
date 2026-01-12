@@ -43,7 +43,7 @@ import {hideLoader, showLoader} from '../component/AppLoader';
 import ReadMore from '@fawazahmed/react-native-read-more';
 import {setShouldToolbarUsesTextFieldTintColor} from 'react-native-keyboard-manager';
 import {AuthContext} from '../navigation/context';
-import RNFetchBlob from 'rn-fetch-blob';
+import ReactNativeBlobUtil from 'react-native-blob-util';
 import {API_URL, Image_URL} from '../utils/apiConstants';
 export default function MyBookingJobDeatils(props) {
   const {navigation} = props;
@@ -244,7 +244,7 @@ export default function MyBookingJobDeatils(props) {
     // var extension = url.match(pattern);
     // console.log('extension is  ', extension);
     const fileName = 'Reva' + currentDate;
-    RNFetchBlob.config({
+    ReactNativeBlobUtil.config({
       // response data will be saved to this path if it has access right.
       fileCache: true,
       useDownloadManager: true,
@@ -253,18 +253,18 @@ export default function MyBookingJobDeatils(props) {
       // appendExt: Platform.OS == 'ios' ? extension[1] : '',
       path:
         Platform.OS == 'ios'
-          ? RNFetchBlob.fs.dirs.DocumentDir + '/' + fileName
-          : RNFetchBlob.fs.dirs.DownloadDir + '/' + fileName,
+          ? ReactNativeBlobUtil.fs.dirs.DocumentDir + '/' + fileName
+          : ReactNativeBlobUtil.fs.dirs.DownloadDir + '/' + fileName,
     })
       .fetch('GET', url, {
         //some headers ..
       })
       .then(res => {
         let base64Str = res.data;
-        Platform.OS == 'ios' && RNFetchBlob.ios.previewDocument(res.data);
-        RNFetchBlob.fs
+        Platform.OS == 'ios' && ReactNativeBlobUtil.ios.previewDocument(res.data);
+        ReactNativeBlobUtil.fs
           .writeFile(
-            RNFetchBlob.fs.dirs.DocumentDir + '/' + fileName,
+            ReactNativeBlobUtil.fs.dirs.DocumentDir + '/' + fileName,
             base64Str,
             'base64',
           )
