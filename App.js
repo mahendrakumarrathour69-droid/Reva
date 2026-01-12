@@ -1,4 +1,4 @@
-import { View, Text, StatusBar, TextInput, PermissionsAndroid } from 'react-native';
+import { View, Text, StatusBar, TextInput, PermissionsAndroid, Platform } from 'react-native';
 import React, { useEffect } from 'react';
 import SplashScreen from 'react-native-splash-screen';
 import KeyboardManager from 'react-native-keyboard-manager';
