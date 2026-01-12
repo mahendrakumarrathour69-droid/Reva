@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Image, ImageStore } from 'react-native';
+import { View, Text, StyleSheet, Image, ImageStore, Platform } from 'react-native';
 import React, { useEffect, useState } from 'react';
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
