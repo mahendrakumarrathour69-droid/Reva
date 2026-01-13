@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   FlatList,
   SafeAreaView,
+  Platform,
 } from 'react-native';
 import { s, vs, ms, mvs } from 'react-native-size-matters';
 import firebase from 'firebase';

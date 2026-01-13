@@ -1,0 +1,235 @@
+info A dev server is already running for this project on port 8081.
+info Installing the app...
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:firebase.bom using default value: 31.1.1
+:react-native-firebase_app:play.play-services-auth using default value: 20.3.0
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_app:android.compileSdk using custom value: 34
+:react-native-firebase_app:android.targetSdk using custom value: 34
+:react-native-firebase_app:android.minSdk using custom value: 24
+:react-native-firebase_app:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_dynamic-links
+:react-native-firebase_dynamic-links package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/dynamic-links/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_dynamic-links:firebase.bom using default value: 31.1.1
+:react-native-firebase_dynamic-links package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/dynamic-links/package.json
+:react-native-firebase_dynamic-links:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_dynamic-links:android.compileSdk using custom value: 34
+:react-native-firebase_dynamic-links:android.targetSdk using custom value: 34
+:react-native-firebase_dynamic-links:android.minSdk using custom value: 24
+:react-native-firebase_dynamic-links:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_firestore
+:react-native-firebase_firestore package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/firestore/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_firestore:firebase.bom using default value: 31.1.1
+:react-native-firebase_firestore package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/firestore/package.json
+:react-native-firebase_firestore:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_firestore:android.compileSdk using custom value: 34
+:react-native-firebase_firestore:android.targetSdk using custom value: 34
+:react-native-firebase_firestore:android.minSdk using custom value: 24
+:react-native-firebase_firestore:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_messaging
+:react-native-firebase_messaging package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/messaging/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_messaging:firebase.bom using default value: 31.1.1
+:react-native-firebase_messaging package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/messaging/package.json
+:react-native-firebase_messaging:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_messaging:android.compileSdk using custom value: 34
+:react-native-firebase_messaging:android.targetSdk using custom value: 34
+:react-native-firebase_messaging:android.minSdk using custom value: 24
+:react-native-firebase_messaging:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-notifications
+WARNING: DSL element 'dexOptions' is obsolete and should be removed.
+It will be removed in version 8.0 of the Android Gradle plugin.
+Using it has no effect, and the AndroidGradle plugin optimizes dexing automatically.
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.9.2
+Gradle: 8.11.1
+WARNING: The specified Android SDK Build Tools version (34.0.0) is ignored, as it is below the minimum supported version (35.0.0) for Android Gradle Plugin 8.9.2.
+Android SDK Build Tools 35.0.0 will be used.
+To suppress this warning, remove "buildToolsVersion '34.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:preBuild UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:preDebugBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preDebugBuild UP-TO-DATE
+> Task :react-native-blob-util:preBuild UP-TO-DATE
+> Task :react-native-blob-util:preDebugBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:writeDebugAarMetadata
+> Task :invertase_react-native-apple-authentication:writeDebugAarMetadata
+> Task :react-native-community_clipboard:preBuild UP-TO-DATE
+> Task :react-native-community_clipboard:preDebugBuild UP-TO-DATE
+> Task :react-native-blob-util:writeDebugAarMetadata
+> Task :react-native-community_netinfo:preBuild UP-TO-DATE
+> Task :react-native-community_netinfo:preDebugBuild UP-TO-DATE
+> Task :react-native-community_clipboard:writeDebugAarMetadata
+> Task :react-native-date-picker:preBuild UP-TO-DATE
+> Task :react-native-date-picker:preDebugBuild UP-TO-DATE
+> Task :react-native-community_netinfo:writeDebugAarMetadata
+> Task :react-native-document-picker:preBuild UP-TO-DATE
+> Task :react-native-document-picker:preDebugBuild UP-TO-DATE
+> Task :react-native-date-picker:writeDebugAarMetadata
+> Task :react-native-fbsdk-next:preBuild UP-TO-DATE
+> Task :react-native-fbsdk-next:preDebugBuild UP-TO-DATE
+> Task :react-native-document-picker:writeDebugAarMetadata
+> Task :react-native-firebase_app:preBuild UP-TO-DATE
+> Task :react-native-firebase_app:preDebugBuild UP-TO-DATE
+> Task :react-native-fbsdk-next:writeDebugAarMetadata
+> Task :react-native-firebase_dynamic-links:preBuild UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:preDebugBuild UP-TO-DATE
+> Task :react-native-firebase_app:writeDebugAarMetadata
+> Task :react-native-firebase_firestore:preBuild UP-TO-DATE
+> Task :react-native-firebase_firestore:preDebugBuild UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:writeDebugAarMetadata
+> Task :react-native-firebase_messaging:preBuild UP-TO-DATE
+> Task :react-native-firebase_firestore:writeDebugAarMetadata
+> Task :react-native-firebase_messaging:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preDebugBuild UP-TO-DATE
+> Task :react-native-firebase_messaging:writeDebugAarMetadata
+> Task :react-native-google-signin_google-signin:preBuild UP-TO-DATE
+> Task :react-native-google-signin_google-signin:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:writeDebugAarMetadata
+> Task :react-native-image-crop-picker:preBuild UP-TO-DATE
+> Task :react-native-image-crop-picker:preDebugBuild UP-TO-DATE
+> Task :react-native-google-signin_google-signin:writeDebugAarMetadata
+> Task :react-native-notifications:preBuild UP-TO-DATE
+> Task :react-native-notifications:preReactNative60DebugBuild UP-TO-DATE
+> Task :react-native-image-crop-picker:writeDebugAarMetadata
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+> Task :react-native-notifications:writeReactNative60DebugAarMetadata
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs
+> Task :react-native-reanimated:prepareWorkletsHeadersForPrefabs
+> Task :react-native-reanimated:preBuild
+> Task :react-native-reanimated:preDebugBuild
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preDebugBuild UP-TO-DATE
+> Task :react-native-reanimated:writeDebugAarMetadata
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:writeDebugAarMetadata
+> Task :react-native-screens:preDebugBuild UP-TO-DATE
+> Task :react-native-snackbar:preBuild UP-TO-DATE
+> Task :react-native-snackbar:preDebugBuild UP-TO-DATE
+> Task :react-native-screens:writeDebugAarMetadata
+> Task :react-native-splash-screen:preBuild UP-TO-DATE
+> Task :react-native-splash-screen:preDebugBuild UP-TO-DATE
+> Task :react-native-snackbar:writeDebugAarMetadata
+> Task :react-native-svg:preBuild UP-TO-DATE
+> Task :react-native-svg:preDebugBuild UP-TO-DATE
+> Task :react-native-splash-screen:writeDebugAarMetadata
+> Task :react-native-vector-icons:preBuild UP-TO-DATE
+> Task :react-native-svg:writeDebugAarMetadata
+> Task :react-native-vector-icons:preDebugBuild UP-TO-DATE
+> Task :react-native-webview:preBuild UP-TO-DATE
+> Task :react-native-webview:preDebugBuild UP-TO-DATE
+> Task :react-native-vector-icons:writeDebugAarMetadata
+> Task :stripe_stripe-react-native:preBuild UP-TO-DATE
+> Task :react-native-webview:writeDebugAarMetadata
+> Task :stripe_stripe-react-native:preDebugBuild UP-TO-DATE
+> Task :stripe_stripe-react-native:writeDebugAarMetadata
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:generateDebugResValues
+> Task :invertase_react-native-apple-authentication:generateDebugResources
+> Task :app:checkDebugAarMetadata FAILED
+> Task :invertase_react-native-apple-authentication:packageDebugResources
+[Incubating] Problems report is available at: file:///Users/orange/Desktop/Reva/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+47 actionable tasks: 31 executed, 16 up-to-date
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.CheckAarMetadataWorkAction
+   > 2 issues were found when checking AAR metadata:
+     
+       1.  Dependency 'androidx.core:core:1.16.0' requires libraries and applications that
+           depend on it to compile against version 35 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-34.
+     
+           Recommended action: Update this project to use a newer compileSdk
+           of at least 35, for example 36.
+     
+           Note that updating a library or application's compileSdk (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdk (which opts the app in to new runtime behavior) and
+           minSdk (which determines which devices the app can be installed
+           on).
+     
+       2.  Dependency 'androidx.core:core-ktx:1.16.0' requires libraries and applications that
+           depend on it to compile against version 35 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-34.
+     
+           Recommended action: Update this project to use a newer compileSdk
+           of at least 35, for example 36.
+     
+           Note that updating a library or application's compileSdk (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdk (which opts the app in to new runtime behavior) and
+           minSdk (which determines which devices the app can be installed
+           on).
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 45s
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.CheckAarMetadataWorkAction > 2 issues were found when checking AAR metadata: 1. Dependency 'androidx.core:core:1.16.0' requires libraries and applications that depend on it to compile against version 35 or later of the Android APIs. :app is currently compiled against android-34. Recommended action: Update this project to use a newer compileSdk of at least 35, for example 36. Note that updating a library or application's compileSdk (which allows newer APIs to be used) can be done separately from updating targetSdk (which opts the app in to new runtime behavior) and minSdk (which determines which devices the app can be installed on). 2. Dependency 'androidx.core:core-ktx:1.16.0' requires libraries and applications that depend on it to compile against version 35 or later of the Android APIs. :app is currently compiled against android-34. Recommended action: Update this project to use a newer compileSdk of at least 35, for example 36. Note that updating a library or application's compileSdk (which allows newer APIs to be used) can be done separately from updating targetSdk (which opts the app in to new runtime behavior) and minSdk (which determines which devices the app can be installed on). * Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org. BUILD FAILED in 1m 45s.
+info Run CLI with --verbose flag for more details.

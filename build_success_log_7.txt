@@ -1,0 +1,110 @@
+info A dev server is already running for this project on port 8081.
+info Installing the app...
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:firebase.bom using default value: 31.1.1
+:react-native-firebase_app:play.play-services-auth using default value: 20.3.0
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_app:android.compileSdk using custom value: 35
+:react-native-firebase_app:android.targetSdk using custom value: 34
+:react-native-firebase_app:android.minSdk using custom value: 24
+:react-native-firebase_app:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_dynamic-links
+:react-native-firebase_dynamic-links package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/dynamic-links/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_dynamic-links:firebase.bom using default value: 31.1.1
+:react-native-firebase_dynamic-links package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/dynamic-links/package.json
+:react-native-firebase_dynamic-links:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_dynamic-links:android.compileSdk using custom value: 35
+:react-native-firebase_dynamic-links:android.targetSdk using custom value: 34
+:react-native-firebase_dynamic-links:android.minSdk using custom value: 24
+:react-native-firebase_dynamic-links:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_firestore
+:react-native-firebase_firestore package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/firestore/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_firestore:firebase.bom using default value: 31.1.1
+:react-native-firebase_firestore package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/firestore/package.json
+:react-native-firebase_firestore:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_firestore:android.compileSdk using custom value: 35
+:react-native-firebase_firestore:android.targetSdk using custom value: 34
+:react-native-firebase_firestore:android.minSdk using custom value: 24
+:react-native-firebase_firestore:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_messaging
+:react-native-firebase_messaging package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/messaging/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_messaging:firebase.bom using default value: 31.1.1
+:react-native-firebase_messaging package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/messaging/package.json
+:react-native-firebase_messaging:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_messaging:android.compileSdk using custom value: 35
+:react-native-firebase_messaging:android.targetSdk using custom value: 34
+:react-native-firebase_messaging:android.minSdk using custom value: 24
+:react-native-firebase_messaging:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-notifications
+WARNING: DSL element 'dexOptions' is obsolete and should be removed.
+It will be removed in version 8.0 of the Android Gradle plugin.
+Using it has no effect, and the AndroidGradle plugin optimizes dexing automatically.
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.9.2
+Gradle: 8.11.1
+[Incubating] Problems report is available at: file:///Users/orange/Desktop/Reva/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+10 actionable tasks: 10 up-to-date
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':stripe_stripe-react-native'.
+> Starting in Kotlin 2.0, the Compose Compiler Gradle plugin is required
+  when compose is enabled. See the following link for more information:
+  https://d.android.com/r/studio-ui/compose-compiler
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 32s
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * What went wrong:
+A problem occurred configuring project ':stripe_stripe-react-native'.
+> Starting in Kotlin 2.0, the Compose Compiler Gradle plugin is required when compose is enabled. See the following link for more information: https://d.android.com/r/studio-ui/compose-compiler * Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org. BUILD FAILED in 32s.
+info Run CLI with --verbose flag for more details.

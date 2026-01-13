@@ -18,7 +18,6 @@ import {s, vs, ms, mvs} from 'react-native-size-matters';
 import images from '../utils/images';
 import {fonts} from '../utils/font';
 import {colors} from '../utils/colors';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 import {Calendar, LocaleConfig} from 'react-native-calendars';
 import moment from 'moment';

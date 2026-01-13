@@ -1,0 +1,548 @@
+info A dev server is already running for this project on port 8081.
+info Installing the app...
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:firebase.bom using default value: 31.1.1
+:react-native-firebase_app:play.play-services-auth using default value: 20.3.0
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_app:android.compileSdk using custom value: 35
+:react-native-firebase_app:android.targetSdk using custom value: 34
+:react-native-firebase_app:android.minSdk using custom value: 24
+:react-native-firebase_app:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_dynamic-links
+:react-native-firebase_dynamic-links package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/dynamic-links/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_dynamic-links:firebase.bom using default value: 31.1.1
+:react-native-firebase_dynamic-links package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/dynamic-links/package.json
+:react-native-firebase_dynamic-links:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_dynamic-links:android.compileSdk using custom value: 35
+:react-native-firebase_dynamic-links:android.targetSdk using custom value: 34
+:react-native-firebase_dynamic-links:android.minSdk using custom value: 24
+:react-native-firebase_dynamic-links:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_firestore
+:react-native-firebase_firestore package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/firestore/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_firestore:firebase.bom using default value: 31.1.1
+:react-native-firebase_firestore package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/firestore/package.json
+:react-native-firebase_firestore:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_firestore:android.compileSdk using custom value: 35
+:react-native-firebase_firestore:android.targetSdk using custom value: 34
+:react-native-firebase_firestore:android.minSdk using custom value: 24
+:react-native-firebase_firestore:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-firebase_messaging
+:react-native-firebase_messaging package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/messaging/package.json
+:react-native-firebase_app package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_messaging:firebase.bom using default value: 31.1.1
+:react-native-firebase_messaging package.json found at /Users/orange/Desktop/Reva/node_modules/@react-native-firebase/messaging/package.json
+:react-native-firebase_messaging:version set from package.json: 16.7.0 (16,7,0 - 16007000)
+:react-native-firebase_messaging:android.compileSdk using custom value: 35
+:react-native-firebase_messaging:android.targetSdk using custom value: 34
+:react-native-firebase_messaging:android.minSdk using custom value: 24
+:react-native-firebase_messaging:reactNativeAndroidDir /Users/orange/Desktop/Reva/node_modules/react-native
+
+> Configure project :react-native-notifications
+WARNING: DSL element 'dexOptions' is obsolete and should be removed.
+It will be removed in version 8.0 of the Android Gradle plugin.
+Using it has no effect, and the AndroidGradle plugin optimizes dexing automatically.
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.9.2
+Gradle: 8.11.1
+
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:preBuild UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:preDebugBuild UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preDebugBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-blob-util:preBuild UP-TO-DATE
+> Task :react-native-blob-util:preDebugBuild UP-TO-DATE
+> Task :react-native-blob-util:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-community_clipboard:preBuild UP-TO-DATE
+> Task :react-native-community_clipboard:preDebugBuild UP-TO-DATE
+> Task :react-native-community_clipboard:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-community_netinfo:preBuild UP-TO-DATE
+> Task :react-native-community_netinfo:preDebugBuild UP-TO-DATE
+> Task :react-native-community_netinfo:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-date-picker:preBuild UP-TO-DATE
+> Task :react-native-date-picker:preDebugBuild UP-TO-DATE
+> Task :react-native-date-picker:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-document-picker:preBuild UP-TO-DATE
+> Task :react-native-document-picker:preDebugBuild UP-TO-DATE
+> Task :react-native-document-picker:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-fbsdk-next:preBuild UP-TO-DATE
+> Task :react-native-fbsdk-next:preDebugBuild UP-TO-DATE
+> Task :react-native-fbsdk-next:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-firebase_app:preBuild UP-TO-DATE
+> Task :react-native-firebase_app:preDebugBuild UP-TO-DATE
+> Task :react-native-firebase_app:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:preBuild UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:preDebugBuild UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-firebase_firestore:preBuild UP-TO-DATE
+> Task :react-native-firebase_firestore:preDebugBuild UP-TO-DATE
+> Task :react-native-firebase_firestore:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-firebase_messaging:preBuild UP-TO-DATE
+> Task :react-native-firebase_messaging:preDebugBuild UP-TO-DATE
+> Task :react-native-firebase_messaging:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-google-signin_google-signin:preBuild UP-TO-DATE
+> Task :react-native-google-signin_google-signin:preDebugBuild UP-TO-DATE
+> Task :react-native-google-signin_google-signin:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-image-crop-picker:preBuild UP-TO-DATE
+> Task :react-native-image-crop-picker:preDebugBuild UP-TO-DATE
+> Task :react-native-image-crop-picker:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-notifications:preBuild UP-TO-DATE
+> Task :react-native-notifications:preReactNative60DebugBuild UP-TO-DATE
+> Task :react-native-notifications:writeReactNative60DebugAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:prepareWorkletsHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:preBuild UP-TO-DATE
+> Task :react-native-reanimated:preDebugBuild UP-TO-DATE
+> Task :react-native-reanimated:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-screens:preDebugBuild UP-TO-DATE
+> Task :react-native-screens:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-snackbar:preBuild UP-TO-DATE
+> Task :react-native-snackbar:preDebugBuild UP-TO-DATE
+> Task :react-native-snackbar:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-splash-screen:preBuild UP-TO-DATE
+> Task :react-native-splash-screen:preDebugBuild UP-TO-DATE
+> Task :react-native-splash-screen:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-svg:preBuild UP-TO-DATE
+> Task :react-native-svg:preDebugBuild UP-TO-DATE
+> Task :react-native-svg:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-vector-icons:preBuild UP-TO-DATE
+> Task :react-native-vector-icons:preDebugBuild UP-TO-DATE
+> Task :react-native-vector-icons:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-webview:preBuild UP-TO-DATE
+> Task :react-native-webview:preDebugBuild UP-TO-DATE
+> Task :react-native-webview:writeDebugAarMetadata UP-TO-DATE
+> Task :stripe_stripe-react-native:preBuild UP-TO-DATE
+> Task :stripe_stripe-react-native:preDebugBuild UP-TO-DATE
+> Task :stripe_stripe-react-native:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:generateDebugResValues UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:generateDebugResources UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:packageDebugResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugResValues UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:packageDebugResources UP-TO-DATE
+> Task :react-native-blob-util:generateDebugResValues UP-TO-DATE
+> Task :react-native-blob-util:generateDebugResources UP-TO-DATE
+> Task :react-native-blob-util:packageDebugResources UP-TO-DATE
+> Task :react-native-community_clipboard:generateDebugResValues UP-TO-DATE
+> Task :react-native-community_clipboard:generateDebugResources UP-TO-DATE
+> Task :react-native-community_clipboard:packageDebugResources UP-TO-DATE
+> Task :react-native-community_netinfo:generateDebugResValues UP-TO-DATE
+> Task :react-native-community_netinfo:generateDebugResources UP-TO-DATE
+> Task :react-native-community_netinfo:packageDebugResources UP-TO-DATE
+> Task :react-native-date-picker:generateDebugResValues UP-TO-DATE
+> Task :react-native-date-picker:generateDebugResources UP-TO-DATE
+> Task :react-native-date-picker:packageDebugResources UP-TO-DATE
+> Task :react-native-document-picker:generateDebugResValues UP-TO-DATE
+> Task :react-native-document-picker:generateDebugResources UP-TO-DATE
+> Task :react-native-document-picker:packageDebugResources UP-TO-DATE
+> Task :react-native-fbsdk-next:generateDebugResValues UP-TO-DATE
+> Task :react-native-fbsdk-next:generateDebugResources UP-TO-DATE
+> Task :react-native-fbsdk-next:packageDebugResources UP-TO-DATE
+> Task :react-native-firebase_app:generateDebugResValues UP-TO-DATE
+> Task :react-native-firebase_app:generateDebugResources UP-TO-DATE
+> Task :react-native-firebase_app:packageDebugResources UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:generateDebugResValues UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:generateDebugResources UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:packageDebugResources UP-TO-DATE
+> Task :react-native-firebase_firestore:generateDebugResValues UP-TO-DATE
+> Task :react-native-firebase_firestore:generateDebugResources UP-TO-DATE
+> Task :react-native-firebase_firestore:packageDebugResources UP-TO-DATE
+> Task :react-native-firebase_messaging:generateDebugResValues UP-TO-DATE
+> Task :react-native-firebase_messaging:generateDebugResources UP-TO-DATE
+> Task :react-native-firebase_messaging:packageDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResValues UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:packageDebugResources UP-TO-DATE
+> Task :react-native-google-signin_google-signin:generateDebugResValues UP-TO-DATE
+> Task :react-native-google-signin_google-signin:generateDebugResources UP-TO-DATE
+> Task :react-native-google-signin_google-signin:packageDebugResources UP-TO-DATE
+> Task :react-native-image-crop-picker:generateDebugResValues UP-TO-DATE
+> Task :react-native-image-crop-picker:generateDebugResources UP-TO-DATE
+> Task :react-native-image-crop-picker:packageDebugResources UP-TO-DATE
+> Task :react-native-notifications:generateReactNative60DebugResValues UP-TO-DATE
+> Task :react-native-notifications:generateReactNative60DebugResources UP-TO-DATE
+> Task :react-native-notifications:packageReactNative60DebugResources UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResValues UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResources UP-TO-DATE
+> Task :react-native-reanimated:packageDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResValues UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:packageDebugResources UP-TO-DATE
+> Task :react-native-screens:generateDebugResValues UP-TO-DATE
+> Task :react-native-screens:generateDebugResources UP-TO-DATE
+> Task :react-native-screens:packageDebugResources UP-TO-DATE
+> Task :react-native-snackbar:generateDebugResValues UP-TO-DATE
+> Task :react-native-snackbar:generateDebugResources UP-TO-DATE
+> Task :react-native-snackbar:packageDebugResources UP-TO-DATE
+> Task :react-native-splash-screen:generateDebugResValues UP-TO-DATE
+> Task :react-native-splash-screen:generateDebugResources UP-TO-DATE
+> Task :react-native-splash-screen:packageDebugResources UP-TO-DATE
+> Task :react-native-svg:generateDebugResValues UP-TO-DATE
+> Task :react-native-svg:generateDebugResources UP-TO-DATE
+> Task :react-native-svg:packageDebugResources UP-TO-DATE
+> Task :react-native-vector-icons:generateDebugResValues UP-TO-DATE
+> Task :react-native-vector-icons:generateDebugResources UP-TO-DATE
+> Task :react-native-vector-icons:packageDebugResources UP-TO-DATE
+> Task :react-native-webview:generateDebugResValues UP-TO-DATE
+> Task :react-native-webview:generateDebugResources UP-TO-DATE
+> Task :react-native-webview:packageDebugResources UP-TO-DATE
+> Task :stripe_stripe-react-native:generateDebugResValues UP-TO-DATE
+> Task :stripe_stripe-react-native:generateDebugResources UP-TO-DATE
+> Task :stripe_stripe-react-native:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:extractDeepLinksDebug UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:processDebugManifest UP-TO-DATE
+> Task :react-native-async-storage_async-storage:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:processDebugManifest UP-TO-DATE
+> Task :react-native-blob-util:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-blob-util:processDebugManifest UP-TO-DATE
+> Task :react-native-community_clipboard:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-community_clipboard:processDebugManifest UP-TO-DATE
+> Task :react-native-community_netinfo:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-community_netinfo:processDebugManifest UP-TO-DATE
+> Task :react-native-date-picker:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-date-picker:processDebugManifest UP-TO-DATE
+> Task :react-native-document-picker:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-document-picker:processDebugManifest UP-TO-DATE
+> Task :react-native-fbsdk-next:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-fbsdk-next:processDebugManifest UP-TO-DATE
+> Task :react-native-firebase_app:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-firebase_app:processDebugManifest UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:processDebugManifest UP-TO-DATE
+> Task :react-native-firebase_firestore:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-firebase_firestore:processDebugManifest UP-TO-DATE
+> Task :react-native-firebase_messaging:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-firebase_messaging:processDebugManifest UP-TO-DATE
+> Task :react-native-gesture-handler:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-gesture-handler:processDebugManifest UP-TO-DATE
+> Task :react-native-google-signin_google-signin:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-google-signin_google-signin:processDebugManifest UP-TO-DATE
+> Task :react-native-image-crop-picker:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-image-crop-picker:processDebugManifest UP-TO-DATE
+> Task :react-native-notifications:extractDeepLinksReactNative60Debug UP-TO-DATE
+> Task :react-native-notifications:processReactNative60DebugManifest UP-TO-DATE
+> Task :react-native-reanimated:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-reanimated:processDebugManifest UP-TO-DATE
+> Task :react-native-safe-area-context:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-safe-area-context:processDebugManifest UP-TO-DATE
+> Task :react-native-screens:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-screens:processDebugManifest UP-TO-DATE
+> Task :react-native-snackbar:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-snackbar:processDebugManifest UP-TO-DATE
+> Task :react-native-splash-screen:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-splash-screen:processDebugManifest UP-TO-DATE
+> Task :react-native-svg:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-svg:processDebugManifest UP-TO-DATE
+> Task :react-native-vector-icons:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-vector-icons:processDebugManifest UP-TO-DATE
+> Task :react-native-webview:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-webview:processDebugManifest UP-TO-DATE
+> Task :stripe_stripe-react-native:extractDeepLinksDebug UP-TO-DATE
+> Task :stripe_stripe-react-native:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:compileDebugLibraryResources UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:parseDebugLocalResources UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:generateDebugRFile UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugRFile UP-TO-DATE
+> Task :react-native-blob-util:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-blob-util:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-blob-util:generateDebugRFile UP-TO-DATE
+> Task :react-native-community_clipboard:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-community_clipboard:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-community_clipboard:generateDebugRFile UP-TO-DATE
+> Task :react-native-community_netinfo:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-community_netinfo:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-community_netinfo:generateDebugRFile UP-TO-DATE
+> Task :react-native-date-picker:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-date-picker:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-date-picker:generateDebugRFile UP-TO-DATE
+> Task :react-native-document-picker:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-document-picker:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-document-picker:generateDebugRFile UP-TO-DATE
+> Task :react-native-fbsdk-next:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-fbsdk-next:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-fbsdk-next:generateDebugRFile UP-TO-DATE
+> Task :react-native-firebase_app:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-firebase_app:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-firebase_app:generateDebugRFile UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-firebase_dynamic-links:generateDebugRFile UP-TO-DATE
+> Task :react-native-firebase_firestore:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-firebase_firestore:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-firebase_firestore:generateDebugRFile UP-TO-DATE
+> Task :react-native-firebase_messaging:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-firebase_messaging:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-firebase_messaging:generateDebugRFile UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-gesture-handler:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugRFile UP-TO-DATE
+> Task :react-native-google-signin_google-signin:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-google-signin_google-signin:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-google-signin_google-signin:generateDebugRFile UP-TO-DATE
+> Task :react-native-image-crop-picker:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-image-crop-picker:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-image-crop-picker:generateDebugRFile UP-TO-DATE
+> Task :react-native-notifications:compileReactNative60DebugLibraryResources UP-TO-DATE
+> Task :react-native-notifications:parseReactNative60DebugLocalResources UP-TO-DATE
+> Task :react-native-notifications:generateReactNative60DebugRFile UP-TO-DATE
+> Task :react-native-reanimated:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-reanimated:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-reanimated:generateDebugRFile UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugRFile UP-TO-DATE
+> Task :react-native-screens:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-screens:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-screens:generateDebugRFile UP-TO-DATE
+> Task :react-native-snackbar:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-snackbar:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-snackbar:generateDebugRFile UP-TO-DATE
+> Task :react-native-splash-screen:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-splash-screen:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-splash-screen:generateDebugRFile UP-TO-DATE
+> Task :react-native-svg:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-svg:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-svg:generateDebugRFile UP-TO-DATE
+> Task :react-native-vector-icons:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-vector-icons:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-vector-icons:generateDebugRFile UP-TO-DATE
+> Task :react-native-webview:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-webview:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-webview:generateDebugRFile UP-TO-DATE
+> Task :stripe_stripe-react-native:compileDebugLibraryResources UP-TO-DATE
+> Task :stripe_stripe-react-native:parseDebugLocalResources UP-TO-DATE
+> Task :stripe_stripe-react-native:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :invertase_react-native-apple-authentication:generateDebugBuildConfig UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:compileDebugKotlin UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:javaPreCompileDebug UP-TO-DATE
+
+> Task :invertase_react-native-apple-authentication:compileDebugJavaWithJavac
+
+> Task :react-native-async-storage_async-storage:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-async-storage_async-storage:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-blob-util:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-blob-util:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-blob-util:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-blob-util:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :invertase_react-native-apple-authentication:bundleLibCompileToJarDebug
+> Task :react-native-community_clipboard:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-community_clipboard:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-community_clipboard:compileDebugJavaWithJavac
+> Task :react-native-community_netinfo:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-community_netinfo:javaPreCompileDebug
+> Task :react-native-community_clipboard:bundleLibCompileToJarDebug
+> Task :react-native-date-picker:generateDebugBuildConfig
+
+> Task :react-native-community_netinfo:compileDebugJavaWithJavac
+
+> Task :react-native-date-picker:javaPreCompileDebug
+> Task :react-native-document-picker:generateDebugBuildConfig
+> Task :react-native-community_netinfo:bundleLibCompileToJarDebug
+
+> Task :react-native-date-picker:compileDebugJavaWithJavac
+
+> Task :react-native-document-picker:javaPreCompileDebug
+> Task :react-native-fbsdk-next:generateDebugBuildConfig
+> Task :react-native-date-picker:bundleLibCompileToJarDebug
+
+> Task :react-native-document-picker:compileDebugJavaWithJavac FAILED
+[Incubating] Problems report is available at: file:///Users/orange/Desktop/Reva/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+284 actionable tasks: 15 executed, 269 up-to-date
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+/Users/orange/Desktop/Reva/node_modules/@invertase/react-native-apple-authentication/android/src/main/java/com/RNAppleAuthentication/AppleAuthenticationAndroidModule.java:85: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        Activity activity = getCurrentActivity();
+                            ^
+/Users/orange/Desktop/Reva/node_modules/@invertase/react-native-apple-authentication/android/src/main/java/com/RNAppleAuthentication/AppleAuthenticationAndroidModule.java:236: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+        Activity activity = getCurrentActivity();
+                            ^
+Note: /Users/orange/Desktop/Reva/node_modules/@invertase/react-native-apple-authentication/android/src/main/java/com/RNAppleAuthentication/AppleAuthenticationAndroidModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 warnings
+/Users/orange/Desktop/Reva/node_modules/@react-native-community/netinfo/android/src/main/java/com/reactnativecommunity/netinfo/NetInfoModule.java:45: warning: [removal] onCatalystInstanceDestroy() in NativeModule has been deprecated and marked for removal
+    public void onCatalystInstanceDestroy() {
+                ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:21: error: cannot find symbol
+import com.facebook.react.bridge.GuardedResultAsyncTask;
+                                ^
+  symbol:   class GuardedResultAsyncTask
+  location: package com.facebook.react.bridge
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:232: error: cannot find symbol
+  private static class ProcessDataTask extends GuardedResultAsyncTask<ReadableArray> {
+                                               ^
+  symbol:   class GuardedResultAsyncTask
+  location: class RNDocumentPickerModule
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:119: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+    Activity currentActivity = getCurrentActivity();
+                               ^
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:160: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+    Activity currentActivity = getCurrentActivity();
+                               ^
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:226: error: cannot find symbol
+      new ProcessDataTask(getReactApplicationContext(), uris, copyTo, promise).execute();
+                                                                              ^
+  symbol:   method execute()
+  location: class ProcessDataTask
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:246: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:255: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+5 errors
+2 warnings
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':react-native-document-picker:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler output below.
+  /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:246: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:255: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+  /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:119: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+      Activity currentActivity = getCurrentActivity();
+                                 ^
+  /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:160: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal
+      Activity currentActivity = getCurrentActivity();
+                                 ^
+  Note: Recompile with -Xlint:deprecation for details.
+  Note: Some input files use or override a deprecated API.
+  /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:226: error: cannot find symbol
+        new ProcessDataTask(getReactApplicationContext(), uris, copyTo, promise).execute();
+                                                                                ^
+    symbol:   method execute()
+    location: class ProcessDataTask
+  /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:21: error: cannot find symbol
+  import com.facebook.react.bridge.GuardedResultAsyncTask;
+                                  ^
+    symbol:   class GuardedResultAsyncTask
+    location: package com.facebook.react.bridge
+  /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:232: error: cannot find symbol
+    private static class ProcessDataTask extends GuardedResultAsyncTask<ReadableArray> {
+                                                 ^
+    symbol:   class GuardedResultAsyncTask
+    location: class RNDocumentPickerModule
+  5 errors
+  2 warnings
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 22s
+error Failed to install the app. Command failed with exit code 1: ./gradlew app:installDebug -PreactNativeDevServerPort=8081
+/Users/orange/Desktop/Reva/node_modules/@invertase/react-native-apple-authentication/android/src/main/java/com/RNAppleAuthentication/AppleAuthenticationAndroidModule.java:85: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal Activity activity = getCurrentActivity(); ^
+/Users/orange/Desktop/Reva/node_modules/@invertase/react-native-apple-authentication/android/src/main/java/com/RNAppleAuthentication/AppleAuthenticationAndroidModule.java:236: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal Activity activity = getCurrentActivity(); ^
+Note: /Users/orange/Desktop/Reva/node_modules/@invertase/react-native-apple-authentication/android/src/main/java/com/RNAppleAuthentication/AppleAuthenticationAndroidModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 warnings
+/Users/orange/Desktop/Reva/node_modules/@react-native-community/netinfo/android/src/main/java/com/reactnativecommunity/netinfo/NetInfoModule.java:45: warning: [removal] onCatalystInstanceDestroy() in NativeModule has been deprecated and marked for removal public void onCatalystInstanceDestroy() { ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:21: error: cannot find symbol
+import com.facebook.react.bridge.GuardedResultAsyncTask; ^ symbol: class GuardedResultAsyncTask location: package com.facebook.react.bridge
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:232: error: cannot find symbol private static class ProcessDataTask extends GuardedResultAsyncTask<ReadableArray> { ^ symbol: class GuardedResultAsyncTask location: class RNDocumentPickerModule
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:119: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal Activity currentActivity = getCurrentActivity(); ^
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:160: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal Activity currentActivity = getCurrentActivity(); ^
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:226: error: cannot find symbol new ProcessDataTask(getReactApplicationContext(), uris, copyTo, promise).execute(); ^ symbol: method execute() location: class ProcessDataTask
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:246: error: method does not override or implement a method from a supertype @Override ^
+/Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:255: error: method does not override or implement a method from a supertype @Override ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+5 errors
+2 warnings FAILURE: Build failed with an exception. * What went wrong:
+Execution failed for task ':react-native-document-picker:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler output below. /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:246: error: method does not override or implement a method from a supertype @Override ^ /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:255: error: method does not override or implement a method from a supertype @Override ^ /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:119: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal Activity currentActivity = getCurrentActivity(); ^ /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:160: warning: [removal] getCurrentActivity() in ReactContextBaseJavaModule has been deprecated and marked for removal Activity currentActivity = getCurrentActivity(); ^ Note: Recompile with -Xlint:deprecation for details. Note: Some input files use or override a deprecated API. /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:226: error: cannot find symbol new ProcessDataTask(getReactApplicationContext(), uris, copyTo, promise).execute(); ^ symbol: method execute() location: class ProcessDataTask /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:21: error: cannot find symbol import com.facebook.react.bridge.GuardedResultAsyncTask; ^ symbol: class GuardedResultAsyncTask location: package com.facebook.react.bridge /Users/orange/Desktop/Reva/node_modules/react-native-document-picker/android/src/main/java/com/reactnativedocumentpicker/RNDocumentPickerModule.java:232: error: cannot find symbol private static class ProcessDataTask extends GuardedResultAsyncTask<ReadableArray> { ^ symbol: class GuardedResultAsyncTask location: class RNDocumentPickerModule 5 errors 2 warnings * Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights. BUILD FAILED in 22s.
+info Run CLI with --verbose flag for more details.
